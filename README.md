@@ -1,4 +1,4 @@
-# opendota
+# OpenDota-Mobile
 
 OpenDota mobile app.
 

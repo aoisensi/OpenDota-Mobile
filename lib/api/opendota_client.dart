@@ -7,7 +7,7 @@ class OpenDotaClient {
   static final _rootURL = "https://api.opendota.com/api/";
 
   static Future<List<PlayerMatch>> getPlayerMatch(int accountID) async {
-    final url = _rootURL + 'players/${accountID}/matches';
+    final url = _rootURL + 'players/$accountID/matches';
 
     var resp = await http.get(url);
 
